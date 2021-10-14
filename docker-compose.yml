@@ -1,0 +1,6 @@
+project:
+    build: .
+    volumes:
+    - ./:/app
+    ports:
+    - 4200:4200
